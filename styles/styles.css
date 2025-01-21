@@ -1,0 +1,58 @@
+.body{
+    width: 1440px;
+    background: rgb(247, 247, 247);
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 140px;
+
+    padding: 20px 0px 20px 0px;
+    gap: 10;
+}
+.logo, .links, .contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    width: 62px;
+    height: 62px;
+}
+.logo h2{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.links a{
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contact button{
+    font-family: Quicksand;
+    width: 197px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}

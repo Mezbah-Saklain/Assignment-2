@@ -21,6 +21,9 @@ marquee{
     padding: 20px 0px 20px 0px;
     gap: 10;
 }
+.menubar{
+    display: none;
+}
 .logo, .links, .contact{
     display: flex;
     align-items: center;
@@ -253,7 +256,7 @@ marquee{
 
 
 .small-image{
-    position: relative;
+    /* position: relative; */
     width: 290.69px;
     height: 301.61px;
 }
@@ -364,4 +367,80 @@ footer{
 
 @media screen and (max-width: 576px) {
     
+    body{
+        margin: 0px;
+    }
+    /* Navbar */
+    .navbar{
+        margin-left: 0px;
+        margin-right: 0px;
+        border-bottom: 2px solid  rgb(254, 163, 1);
+    }
+    .links,.logo h2,.contact{
+        display: none;
+    }
+    .logo ,.menubar{
+        padding: 3px 15px;
+    }
+    .menubar {
+        width: 50px;
+        height: 50px;
+        display: flex;
+    }
+    /* Banner */
+    .banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+    .text{
+        text-align: center;
+        align-items: center;
+        width: 90%;
+    }
+    .card{
+        flex-direction: column;
+    }
+
+
+    /* Curriculum */
+    .curriculum{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+    .next-buttons{
+        display: none;
+    }
+    .curriculum{
+        margin-top: 250px;
+    }
+    /* stories */
+    .big-image{
+        display: none;
+        margin-left: 0px;
+    }
+    .our-stories{
+        margin: 20px 20px;
+    }
+    .right-side,.small-image,.right-side img{
+        width: 100%;
+    }
+    .our-stories-section button{
+        margin: 100px auto;
+    }
+    /* footer */
+    footer{
+        grid-template-columns: 1fr;
+    }
+    .about{
+        margin-left: 0px;
+    }
+    .contact{
+        display: block; 
+        text-align: center; 
+        margin-left: 0px;
+    }
 }

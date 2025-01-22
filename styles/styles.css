@@ -208,6 +208,10 @@ marquee{
     margin-top: 60px;
     gap: 20px;
     margin-bottom: 60px;
+    transition: all .3s ease-in-out;
+}
+.button:hover{
+    opacity: .7;
 }
 
 /* Our-stories */
